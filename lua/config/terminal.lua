@@ -19,3 +19,6 @@ end
 vim.keymap.set("n", "<leader>ts", function()
   get_terminal("shell", "zsh"):toggle()
 end, { desc = "Shell" })
+
+-- Keymap to exit terminal
+vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]])
