@@ -1,0 +1,22 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Lazy / plugin downloads
+lazy-lock.json
+
+# Local state (DO NOT TRACK)
+*.log
+*.tmp
+
+# Neovim runtime/state
+*.swp
+*.swo
+
+# Optional: if you don't want plugin snapshots
+**/lazy.nvim
