@@ -26,6 +26,14 @@ vim.keymap.set("n", "<leader>l", "<C-w>l")
 
 ---
 
-## 🧠 Notes
+🪟 Bottom Terminal Toggle
 
-These mappings are intended to reduce friction when moving between splits and make navigation more consistent with Vim movement keys.
+A single keybinding is used to toggle a horizontal terminal at the bottom of the screen.
+
+Key	Action
+<leader>ts	Toggle bottom terminal Bottom Terminal Toggle
+
+A single keybinding is used to toggle a horizontal terminal at the bottom of the screen.
+
+Key	Action
+<leader>ts	Toggle bottom terminal
